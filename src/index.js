@@ -1,11 +1,12 @@
 
 import REACTDOM from 'react-dom'
 import React from 'react'
+import Quiz from './components/Quiz'
 
 function App() {
   return (
     <div>
-      <h1>Hello world</h1>
+      <Quiz></Quiz>
     </div>
   )
 }

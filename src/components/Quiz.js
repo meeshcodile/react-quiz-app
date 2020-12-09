@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles.css';
-import QuizData from './QuizData'
+import {QuizData} from './QuizData'
 
 
 class Quiz extends Component {
@@ -82,9 +82,10 @@ class Quiz extends Component {
     }
 
     render() {
+        const {question, options, answer, quizEnd, currentIndex, userAnswer} = this.state
         return (
             <div>
-                
+                <h2>{question}</h2>
             </div>
         )
     }
